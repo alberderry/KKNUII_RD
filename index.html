@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style>
+    .card-body {
+      background-color: rgba(255, 255, 255, 0.8);
+    }
+
+    .card {
+      max-width: 580px;
+      margin: 0 auto;
+    }
+
+    .card-title {
+      font-size: 20px;
+      font-weight: 100;
+    }
+
+    @media (max-width: 768px) {
+      .card {
+        max-width: 100%;
+      }
+    }
+    .btn-get-started.scrollto {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .btn-get-started.scrollto i {
+      font-size: 48px; /* Atur ukuran ikon sesuai kebutuhan */
+      margin-bottom: 10px; /* Atur jarak antara ikon dan teks */
+    }
+
+    /* Responsif untuk ukuran layar di bawah 768px (misalnya perangkat seluler) */
+    @media (max-width: 768px) {
+      .btn-get-started.scrollto i {
+        font-size: 32px; /* Ukuran ikon lebih kecil di perangkat seluler */
+      }
+    }
+    .row-centered {
+      display: flex;
+      justify-content: center;
+    }
+    .youtube-responsive-container {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%; /* Rasio aspek 16:9 */
+}
+
+.youtube-responsive-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.map-container {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 56.25%; /* Rasio aspek 16:9 */
+  margin: 0 auto; /* Untuk membuat peta berada di tengah */
+}
+
+.map-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+    
+
+  </style>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title img src="assets/img/Logo-Desa-Dadapan.jpg">
+    Explore Dadapan
+
+
+
+
+  </title>
+  
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Vesperr - v4.8.1
+  * Template URL: https://bootstrapmade.com/vesperr-free-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <div class="logo">
+        <h1><a href="index.html">SISTEM INFORMASI DESA DADAPAN</a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Beranda</a></li>
+          <li><a class="nav-link scrollto" href="#about">Profil Desa</a></li>
+          <li><a class="nav-link scrollto" href="#services">Aktivitas</a></li>
+          <li><a class="nav-link scrollto" href="#sosial-media-kami">Kontak</a></li>
+          <li><a class="nav-link scrollto" href="#objekwisata">Objek Wisata</a></li>
+          <li><a class="nav-link scrollto" href="#galeri">Galeri </a></li>
+          <li><a class="nav-link scrollto" href="#pengaduan">Pengaduan </a></li>
+          <li><a class="nav-link scrollto" href="#lokasi">Lokasi </a></li>
+          <li><a class="getstarted scrollto" href="#about">GO</a></li>
+          
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
+          <h1 data-aos="fade-up">Desa Dadapan</h1>
+          <h2 data-aos="fade-up" data-aos-delay="400">yang terletak di Desa Mangli, Kecamatan Kaliangkrik, Kabupaten Magelang, Jawa Tengah.</h2>
+          <div data-aos="fade-up" data-aos-delay="800">
+            <a href="#about" class="btn-get-started scrollto">GO</a>
+          </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 fitur_lengkap_mudah" data-aos="fade-left" data-aos-delay="200">
+          <div class="youtube-responsive-container">
+            <iframe src="https://www.youtube.com/embed/oKnZS3eeFCk" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!-- End Hero -->
+  
+
+  <main id="main">
+
+
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+    
+        <div class="section-title" data-aos="fade-up">
+          <h2>Profil Desa</h2>
+        </div>
+    
+        <div class="row content justify-content-center"> <!-- Menggunakan "justify-content-center" untuk mengatur konten di tengah secara horizontal -->
+          <div class="profil d-flex justify-content-center" data-aos="fade-up" data-aos-delay="150"> <!-- Menambahkan "d-flex" dan "justify-content-center" untuk mengatur konten di tengah secara horizontal -->
+            <div class="content text-center"> <!-- Menambahkan "text-center" untuk mengatur teks di tengah secara horizontal -->
+              <p>
+                Desa Dadapan terletak di wilayah Kecamatan Kaliangkrik, Kabupaten Magelang, Provinsi Jawa Tengah, Indonesia. Koordinat lokasinya adalah Dadapan, Mangli, Kec. Kaliangkrik, Kabupaten Magelang, Jawa Tengah 56153.
+                Desa Dadapan memiliki akses yang relatif mudah dijangkau, baik dengan kendaraan umum maupun kendaraan pribadi. Desa ini berada di kawasan pegunungan yang indah dan dikelilingi oleh alam yang menarik untuk dijelajahi seperti gunung sumbing.
+                Jika Anda tertarik untuk mengunjungi Desa Dadapan, Anda dapat menggunakan peta atau aplikasi peta online untuk memandu perjalanan Anda menuju lokasi tersebut. Selain itu, warga setempat juga akan dengan senang hati memberikan informasi dan petunjuk bagi pengunjung yang ingin berkunjung ke desa ini.  
+              </p>
+              <ul>
+                <!-- <li><i class="ri-check-double-line"></i> Website desa warga dapat dengan mudah melihat perkembangan desa melalui data atau informasi yang tampil pada website desanya. </li>
+                <li><i class="ri-check-double-line"></i> Adanya layanan administrasi persuratan sehingga masyarakat dapat dengan mudah mengakses pelayanan dengan online tanpa perlu mengurus ke kantor desa. </li>
+                <li><i class="ri-check-double-line"></i> Adanya sistem sinkronisasi perencanaan pembangunan desa dan pembangunan perdesaan antara masyarakat dan pemerintah, sehingga masyarakat dengan mudah memberikan masukan terkait pembaharuan data, konten, dan informasi desa secara terus menerus. </li> -->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+      </div>
+    </section><!-- End About Us Section -->
+
+    <!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts">
+      <div class="container">
+        <div class="section-title" data-aos="fade-up">
+          <h2>Jumlah Kependudukan</h2>
+        </div>
+        <div class="row">
+          <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-xl-start" data-aos="fade-right" data-aos-delay="150">
+            <img src="assets/img/pendudukkk.png" class="img-fluid animated" alt="" style="height: 500px;">
+          </div>
+
+          <div class="col-xl-7 d-flex align-items-stretch pt-4 pt-xl-0" data-aos="fade-left" data-aos-delay="300">
+            <div class="content d-flex flex-column justify-content-center">
+              <div class="row">
+                <div class="col-md-6 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <i class="bi bi-gender-male"></i>
+                    <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1" class="purecounter"></span>
+                    <p><strong>Penduduk Laki - Laki</strong> di Dadapan berjumlah 10 orang</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <i class="bi bi-gender-female"></i>
+                    <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1" class="purecounter"></span>
+                    <p><strong>Penduduk Perempuan</strong> di Dadapan berjumlah 10 orang</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <i><h2>RT</h2></i>
+                    <span data-purecounter-start="0" data-purecounter-end="7" data-purecounter-duration="1" class="purecounter"></span>
+                    <p><strong>Jumlah Rukun Tetangga</strong> di Dadapan berjumlah 7</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <i><h2>RW</h2></i>
+                    <span data-purecounter-start="0" data-purecounter-end="2" data-purecounter-duration="1" class="purecounter"></span>
+                    <p><strong>Jumlah Rukun Warga</strong> di Dadapan berjumlah 2</p>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End .content-->
+          </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <a href="#services" class="btn-get-started scrollto"><h3>NEXT</h3></a>
+      </div>
+    </section><!-- End Counts Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>Aktivitas Warga</h2>
+          <p>Berbagai macam aktivitas dan inovasi warga di dusun Dadapan</p>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <div class="icon"><i class="bx bx-leaf"></i></div>
+              <img src="assets/img/pertanian.jpg" alt="Gambar Pertanian" class="img-fluid"><br>
+              <h4 class="title"><a href="">Pertanian dan Pertanian Organik</a></h4>
+              <p class="description">Karena lokasinya yang subur, penduduk dapat terlibat dalam berbagai kegiatan pertanian, termasuk tanaman pangan, buah-buahan, dan sayuran. Beberapa masyarakat juga mungkin tertarik dengan pertanian organik atau metode pertanian berkelanjutan.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <img src="assets/img/" alt="Gambar" class="img-fluid"><br>
+              <h4 class="title"><a href=""></a></h4>
+              <p class="description"></p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+              <div class="icon"><i class="bx bx-tachometer"></i></div>
+              <img src="assets/img/" alt="Gambar" class="img-fluid"><br>
+              <h4 class="title"><a href=""></a></h4>
+              <p class="description"></p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
+              <div class="icon"><i class="bx bx-world"></i></div>
+              <img src="assets/img/" alt="Gambar" class="img-fluid"><br>
+              <h4 class="title"><a href=""></a></h4>
+              <p class="description"></p>
+            </div>
+
+          </div>
+          
+          
+
+        </div>
+        
+        <br>
+        <br>
+        <br>
+        <div class="section-title" data-aos="fade-up">
+          <h2>Inovasi Baru</h2>
+          <p>Beberapa Inovasi baru yang ada di dusun Dadapan</p>
+        </div>
+        <div class="row">
+          <!-- Baris Pertama - Kotak Kiri -->
+          <div class="col-md-6 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon">
+                <a href="https://youtu.be/n7FQJRhCVCM" target="_blank">
+                  <i class="bx bxl-youtube"></i>
+                </a>
+              </div>
+              <br>
+              <div class="youtube-responsive-container">
+                <iframe src="https://www.youtube.com/embed/n7FQJRhCVCM" frameborder="0" allowfullscreen></iframe>
+              </div>
+              <br>
+              <h4 class="title"><a href="https://youtu.be/n7FQJRhCVCM" target="_blank">Produksi Teh Dari Daun Kelor</a></h4>
+              <p class="description">Pengelolahan daun kelor menjadi serbuk daun teh yang siap disajikan. Teh daun kelor memiliki manfaat sebagai sumber antioksidan, penurun peradangan, menurunkan kadar gula darah, mendukung kesehatan jantung, meningkatkan sistem kekebalan tubuh, dan menyokong fungsi pencernaan.</p>
+            </div>
+          </div>
+        
+          <!-- Baris Pertama - Kotak Kanan -->
+          <div class="col-md-6 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon">
+                <a href="https://youtu.be/n7FQJRhCVCM" target="_blank">
+                  <i class="bx bxl-youtube"></i>
+                </a>
+              </div>
+              <br>
+              <div class="youtube-responsive-container">
+                <iframe src="https://www.youtube.com/embed/n7FQJRhCVCM" frameborder="0" allowfullscreen></iframe>
+              </div>
+              <br>
+              <h4 class="title"><a href="https://youtu.be/n7FQJRhCVCM" target="_blank">Produksi Teh Dari Daun Kelor</a></h4>
+              <p class="description">Pengelolahan daun kelor menjadi serbuk daun teh yang siap disajikan. Teh daun kelor memiliki manfaat sebagai sumber antioksidan, penurun peradangan, menurunkan kadar gula darah, mendukung kesehatan jantung, meningkatkan sistem kekebalan tubuh, dan menyokong fungsi pencernaan.</p>
+            </div>
+          </div>
+        </div>
+        
+        
+          
+        
+      </div>
+      <br>
+      <br><br>
+      <br>
+      <br>
+      <a href="#fitur" class="btn-get-started scrollto"><h3>NEXT</h3></a>
+    </section><!-- End Services Section -->
+
+
+
+    <!-- ======= Features Section ======= -->
+    <section id="objekwisata" class="objekwisata">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>OBJEK WISATA</h2>
+          <p>Berbagai Macam Objek Wisata yang ada di Dadapan</p>
+        </div>
+    <!-- ======= More Services Section ======= -->
+    <section id="more-services" class="more-services">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-6 d-flex align-items-stretch">
+            <div class="card" style='background-image: url("assets/img/Silancur.jpg");' data-aos="fade-up" data-aos-delay="100">
+              <div class="card-body">
+                <h5 class="card-title"><a href="">Silancur Highland</a></h5>
+                <p class="card-text"></p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+            <div class="card" style='background-image: url("assets/img/homestay.jpg");' data-aos="fade-up" data-aos-delay="200">
+              <div class="card-body">
+                <h5 class="card-title"><a href="">Homestay Babe Adem Ayem</a></h5>
+                <p class="card-text"></p>
+                
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-6 d-flex align-items-stretch mt-4">
+            <div class="card" style='background-image: url("assets/img/joglokoden.jpg");' data-aos="fade-up" data-aos-delay="100">
+              <div class="card-body">
+                <h5 class="card-title"><a href="">Joglo Koden</a></h5>
+                <p class="card-text"></p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 d-flex align-items-stretch mt-4">
+            <div class="card" style='background-image: url("assets/img/nyawiji.jpg");' data-aos="fade-up" data-aos-delay="200">
+              <div class="card-body">
+                <h5 class="card-title"><a href="">Nyawiji Cafe and Homestay</a></h5>
+                <p class="card-text"></p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br> <br>
+        
+        <section id="galeri" class="sosial-media-kami">
+          <div class="container">
+            <div class="section-title" data-aos="fade-up">
+              <h2>Galeri Foto </h2>
+              <p>Beberapa foto di dusun Dadapan</p>
+            </div>
+            <div class="row">
+              <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="photo-frame">
+                  <img src="assets/img/desadadapan.png" alt="Foto 1">
+                </div>
+              </div>
+              <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="photo-frame">
+                  <img src="assets/img/desadadapan.png" alt="Foto 2">
+                </div>
+              </div>
+              <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="photo-frame">
+                  <img src="assets/img/desadadapan.png" alt="Foto 3">
+                </div>
+              </div>
+              <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+                <div class="photo-frame">
+                  <img src="assets/img/desadadapan.png" alt="Foto 4">
+                </div>
+              </div>
+              <div class="col-md-4" data-aos="fade-up" data-aos-delay="500">
+                <div class="photo-frame">
+                  <img src="assets/img/desadadapan.png" alt="Foto 5">
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="pengaduan" class="pengaduan">
+          <div class="container">
+            <div class="section-title" data-aos="fade-up">
+              <h2>Formulir Pengaduan Masyarakat</h2>
+              <p>Isikan Formulir di bawah ini untuk melakukan pengaduan dan memberi saran</p>
+            </div>
+            
+            <!-- Menyematkan Google Form menggunakan iframe -->
+            <iframe src="https://forms.gle/sehorgQnDCxb8g8s6" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0"></iframe>
+          </div>
+        </section>
+        
+        <section id="lokasi" class="lokasi">
+          <div class="container">
+            <div class="section-title" data-aos="fade-up">
+              <h2>Lokasi Dusun Dadapan</h2>
+              <p>Temukan Lokasi Dusun Dadapan Di sini!</p>
+            </div>
+        
+            <div class="map-container">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d989.1100065881445!2d110.10859005226922!3d-7.416455141410526!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a9b6ce79b911f%3A0x9b9abedf1378c1ff!2sDesa%20Dadapan!5e0!3m2!1sen!2sid!4v1691153141304!5m2!1sen!2sid" frameborder="0" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </section>
+        
+
+        <section id="sosial-media-kami" class="sosial-media-kami">
+          <div class="container">
+            <div class="section-title" data-aos="fade-up">
+              <h2>Sosial Media Kami</h2>
+            </div>
+            <div class="row justify-content-center"> <!-- Menggunakan "justify-content-center" untuk mengatur konten di tengah secara horizontal -->
+              <!-- Ikon Instagram -->
+              <div class="col-lg-6 d-flex align-items-stretch justify-content-center"> <!-- Menambahkan "justify-content-center" untuk mengatur ikon di tengah secara horizontal -->
+                <a href="https://www.instagram.com/explore.dadapan" class="btn-get-started scrollto text-center"> <!-- Menambahkan "text-center" untuk mengatur teks di tengah secara horizontal -->
+                  <i class="bi bi-instagram"></i>
+                  Instagram
+                </a>
+              </div>
+              <!-- Ikon Email -->
+              <div class="col-lg-6 d-flex align-items-stretch justify-content-center"> <!-- Menambahkan "justify-content-center" untuk mengatur ikon di tengah secara horizontal -->
+                <a href="mailto:dadapankaliangkrik@gmail.com" class="btn-get-started scrollto text-center"> <!-- Menambahkan "text-center" untuk mengatur teks di tengah secara horizontal -->
+                  <i class="bi bi-envelope"></i>
+                  Email
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+                  <a href="#hero" class="btn-get-started scrollto"><h3>HOME</h3></a>
+
+      </div>
+    </section><!-- End More Services Section -->
+ 
+      </div>
+    </section><!-- End Features Section -->
+
+
+ 
+   
+
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="row d-flex align-items-center">
+        <div class="col-lg-6 text-lg-left text-center">
+          <div class="copyright">
+            <p></p>
+          </div>
+          <div class="credits">
+            <!-- All the links in the footer should remain intact. -->
+            <!-- You can delete the links only if you purchased the pro version. -->
+            <!-- Licensing information: https://bootstrapmade.com/license/ -->
+            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/vesperr-free-bootstrap-template/ -->
+           
+                     
+
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+          
+
+</body>
+
+</html>
