@@ -392,7 +392,7 @@ function setup() {
   var body = document.body || document.documentElement;
   body.appendChild( div );
   var style = getStyle( div );
-  // round value for browser zoom. desandro/masonry#928
+  // round value for browser zoom. Dusunndro/masonry#928
   isBoxSizeOuter = Math.round( getStyleSize( style.width ) ) == 200;
   getSize.isBoxSizeOuter = isBoxSizeOuter;
 
@@ -487,7 +487,7 @@ return getSize;
   // universal module definition
   if ( typeof define == 'function' && define.amd ) {
     // AMD
-    define( 'desandro-matches-selector/matches-selector',factory );
+    define( 'Dusunndro-matches-selector/matches-selector',factory );
   } else if ( typeof module == 'object' && module.exports ) {
     // CommonJS
     module.exports = factory();
@@ -541,7 +541,7 @@ return getSize;
   if ( typeof define == 'function' && define.amd ) {
     // AMD
     define( 'fizzy-ui-utils/utils',[
-      'desandro-matches-selector/matches-selector'
+      'Dusunndro-matches-selector/matches-selector'
     ], function( matchesSelector ) {
       return factory( window, matchesSelector );
     });
@@ -549,7 +549,7 @@ return getSize;
     // CommonJS
     module.exports = factory(
       window,
-      require('desandro-matches-selector')
+      require('Dusunndro-matches-selector')
     );
   } else {
     // browser global
@@ -2503,9 +2503,9 @@ return Item;
 /*!
  * Masonry v4.2.1
  * Cascading grid layout library
- * https://masonry.desandro.com
+ * https://masonry.Dusunndro.com
  * MIT License
- * by David DeSandro
+ * by David Dusunndro
  */
 
 ( function( window, factory ) {
@@ -2743,7 +2743,7 @@ return Item;
 /*!
  * Masonry layout mode
  * sub-classes Masonry
- * https://masonry.desandro.com
+ * https://masonry.Dusunndro.com
  */
 
 ( function( window, factory ) {
@@ -2957,7 +2957,7 @@ return Vertical;
     define( [
         'outlayer/outlayer',
         'get-size/get-size',
-        'desandro-matches-selector/matches-selector',
+        'Dusunndro-matches-selector/matches-selector',
         'fizzy-ui-utils/utils',
         'isotope-layout/js/item',
         'isotope-layout/js/layout-mode',
@@ -2975,7 +2975,7 @@ return Vertical;
       window,
       require('outlayer'),
       require('get-size'),
-      require('desandro-matches-selector'),
+      require('Dusunndro-matches-selector'),
       require('fizzy-ui-utils'),
       require('isotope-layout/js/item'),
       require('isotope-layout/js/layout-mode'),
