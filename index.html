@@ -6,7 +6,11 @@
     .card-body {
       background-color: rgba(255, 255, 255, 0.8);
     }
-
+    .icon-box img {
+        width: 100%; /* Set lebar gambar menjadi 100% dari kotak ikon */
+        height: 200px; /* Atur tinggi gambar yang sama untuk semua kotak ikon */
+        object-fit: cover; /* Pastikan gambar mengisi kotak tanpa distorsi */
+    }
     .card {
       max-width: 580px;
       margin: 0 auto;
@@ -174,31 +178,45 @@
 
 
     <!-- ======= About Us Section ======= -->
-    <section id="about" class="about">
-      <div class="container">
-    
-        <div class="section-title" data-aos="fade-up">
-          <h2>Profil Dusun</h2>
-        </div>
-    
-        <div class="row content justify-content-center"> <!-- Menggunakan "justify-content-center" untuk mengatur konten di tengah secara horizontal -->
-          <div class="profil d-flex justify-content-center" data-aos="fade-up" data-aos-delay="150"> <!-- Menambahkan "d-flex" dan "justify-content-center" untuk mengatur konten di tengah secara horizontal -->
-            <div class="content text-center"> <!-- Menambahkan "text-center" untuk mengatur teks di tengah secara horizontal -->
-              <p>
-                Dusun Dadapan terletak di wilayah Kecamatan Kaliangkrik, Kabupaten Magelang, Provinsi Jawa Tengah, Indonesia. Koordinat lokasinya adalah Dadapan, Mangli, Kec. Kaliangkrik, Kabupaten Magelang, Jawa Tengah 56153.
-                Dusun Dadapan memiliki akses yang relatif mudah dijangkau, baik dengan kendaraan umum maupun kendaraan pribadi. Dusun ini berada di kawasan pegunungan yang indah dan dikelilingi oleh alam yang menarik untuk dijelajahi seperti gunung sumbing.
-                Jika Anda tertarik untuk mengunjungi Dusun Dadapan, Anda dapat menggunakan peta atau aplikasi peta online untuk memandu perjalanan Anda menuju lokasi tersebut. Selain itu, warga setempat juga akan dengan senang hati memberikan informasi dan petunjuk bagi pengunjung yang ingin berkunjung ke Dusun ini.  
-              </p>
-              <ul>
-                <!-- <li><i class="ri-check-double-line"></i> Website Dusun warga dapat dengan mudah melihat perkembangan Dusun melalui data atau informasi yang tampil pada website Dusunnya. </li>
-                <li><i class="ri-check-double-line"></i> Adanya layanan administrasi persuratan sehingga masyarakat dapat dengan mudah mengakses pelayanan dengan online tanpa perlu mengurus ke kantor Dusun. </li>
-                <li><i class="ri-check-double-line"></i> Adanya sistem sinkronisasi perencanaan pembangunan Dusun dan pembangunan perDusunan antara masyarakat dan pemerintah, sehingga masyarakat dengan mudah memberikan masukan terkait pembaharuan data, konten, dan informasi Dusun secara terus menerus. </li> -->
-              </ul>
-            </div>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Your meta tags, title, and other head elements -->
+</head>
+<body>
+
+<section id="about" class="about">
+  <div class="container">
+    <div class="section-title" data-aos="fade-up">
+      <h2>Profil Dusun</h2>
+    </div>
+    <div class="row content justify-content-center">
+      <div class="profil d-flex justify-content-center" data-aos="fade-up" data-aos-delay="150">
+        <div class="content text-center">
+          <!-- Add a border to the image container -->
+          <div class="image-container" style="border: 5px solid #3498db; padding: 10px; display: inline-block;">
+            <img src="assets/img/kades dan kadus.jpg" style="height: 300px;" alt="Kepala Desa">
           </div>
+          <h3 style="margin-top: 20px;"></h3> <!-- Add the name of the village head here -->
+          <p>
+            Dusun Dadapan terletak di wilayah Kecamatan Kaliangkrik, Kabupaten Magelang, Provinsi Jawa Tengah, Indonesia. Koordinat lokasinya adalah Dadapan, Mangli, Kec. Kaliangkrik, Kabupaten Magelang, Jawa Tengah 56153.
+            Dusun Dadapan memiliki akses yang relatif mudah dijangkau, baik dengan kendaraan umum maupun kendaraan pribadi. Dusun ini berada di kawasan pegunungan yang indah dan dikelilingi oleh alam yang menarik untuk dijelajahi seperti gunung sumbing.
+            Jika Anda tertarik untuk mengunjungi Dusun Dadapan, Anda dapat menggunakan peta atau aplikasi peta online untuk memandu perjalanan Anda menuju lokasi tersebut. Selain itu, warga setempat juga akan dengan senang hati memberikan informasi dan petunjuk bagi pengunjung yang ingin berkunjung ke Dusun ini.
+          </p>
+          <ul>
+            <!-- Your list items go here -->
+          </ul>
         </div>
       </div>
-    </section>
+    </div>
+  </div>
+</section>
+
+<!-- Your other HTML sections and scripts -->
+
+</body>
+</html>
+
     
 
       </div>
@@ -237,16 +255,16 @@
                 <div class="col-md-6 d-md-flex align-items-md-stretch">
                   <div class="count-box">
                     <i><h2>RT</h2></i>
-                    <span data-purecounter-start="0" data-purecounter-end="7" data-purecounter-duration="1" class="purecounter"></span>
-                    <p><strong>Jumlah Rukun Tetangga</strong> di Dadapan berjumlah 7</p>
+                    <span data-purecounter-start="0" data-purecounter-end="6" data-purecounter-duration="1" class="purecounter"></span>
+                    <p><strong>Rukun Tetangga</strong> di Dadapan yaitu RT 6</p>
                   </div>
                 </div>
 
                 <div class="col-md-6 d-md-flex align-items-md-stretch">
                   <div class="count-box">
                     <i><h2>RW</h2></i>
-                    <span data-purecounter-start="0" data-purecounter-end="2" data-purecounter-duration="1" class="purecounter"></span>
-                    <p><strong>Jumlah Rukun Warga</strong> di Dadapan berjumlah 2</p>
+                    <span data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="1" class="purecounter"></span>
+                    <p><strong>Rukun Warga</strong> di Dadapan yaitu RW 3</p>
                   </div>
                 </div>
               </div>
@@ -291,7 +309,7 @@
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
               <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <img src="assets/img/" alt="Gambar" class="img-fluid"><br>
+              <img src="assets/img/peternakan.jpeg" alt="Gambar" class="img-fluid"><br>
               <h4 class="title"><a href="">Peternakan</a></h4>
               <p class="description"> Beberapa warga mungkin memiliki ternak seperti ayam, kambing, atau sapi. Peternakan memberikan sumber pendapatan tambahan dan juga menyediakan pasokan makanan dan bahan baku bagi keluarga mereka.</p>
             </div>
@@ -385,7 +403,7 @@
           <div class="col-md-6 d-flex align-items-stretch">
             <div class="card" style='background-image: url("assets/img/Silancur.jpg");' data-aos="fade-up" data-aos-delay="100">
               <div class="card-body">
-                <h5 class="card-title"><a href="">Silancur Highland</a></h5>
+                <h5 class="card-title"><a href="https://silancurhighland.com/">Silancur Highland</a></h5>
                 <p class="card-text"></p>
                 
               </div>
@@ -394,7 +412,7 @@
           <div class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
             <div class="card" style='background-image: url("assets/img/homestay.jpg");' data-aos="fade-up" data-aos-delay="200">
               <div class="card-body">
-                <h5 class="card-title"><a href="">Homestay Babe Adem Ayem</a></h5>
+                <h5 class="card-title"><a href="https://abnb.me/3GUEzPAQECb">Homestay Babe Adem Ayem</a></h5>
                 <p class="card-text"></p>
                 
               </div>
@@ -413,7 +431,7 @@
           <div class="col-md-6 d-flex align-items-stretch mt-4">
             <div class="card" style='background-image: url("assets/img/nyawiji.jpg");' data-aos="fade-up" data-aos-delay="200">
               <div class="card-body">
-                <h5 class="card-title"><a href="">Nyawiji Cafe and Homestay</a></h5>
+                <h5 class="card-title"><a href="https://maps.app.goo.gl/ziNLTsUnR22UiwFb7?g_st=iw">Nyawiji Cafe and Homestay</a></h5>
                 <p class="card-text"></p>
                 
               </div>
@@ -429,41 +447,133 @@
         <br>
         <br> <br>
         
-        <section id="galeri" class="sosial-media-kami">
-          <div class="container">
-            <div class="section-title" data-aos="fade-up">
-              <h2>Galeri Foto </h2>
-              <p>Beberapa foto di dusun Dadapan</p>
-            </div>
-            <div class="row">
-              <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
-                <div class="photo-frame">
-                  <img src="assets/img/Dusundadapan.png" alt="Foto 1">
-                </div>
-              </div>
-              <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
-                <div class="photo-frame">
-                  <img src="assets/img/Dusundadapan.png" alt="Foto 2">
-                </div>
-              </div>
-              <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
-                <div class="photo-frame">
-                  <img src="assets/img/Dusundadapan.png" alt="Foto 3">
-                </div>
-              </div>
-              <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
-                <div class="photo-frame">
-                  <img src="assets/img/Dusundadapan.png" alt="Foto 4">
-                </div>
-              </div>
-              <div class="col-md-4" data-aos="fade-up" data-aos-delay="500">
-                <div class="photo-frame">
-                  <img src="assets/img/Dusundadapan.png" alt="Foto 5">
-                </div>
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Your meta tags, title, and other head elements -->
+</head>
+<body>
+
+  <section id="galeri" class="sosial-media-kami">
+    <div class="container">
+      <div class="section-title" data-aos="fade-up">
+        <h2>Galeri Foto</h2>
+        <p>Beberapa foto di Dusun Dadapan</p>
+      </div>
+      <div class="row">
+        <!-- First row of images (horizontal) -->
+        <div class="col-md-12" data-aos="fade-up" data-aos-delay="100">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="image-container" style="border: 5px solid #3498db; padding: 10px; margin: 10px;">
+                <img src="assets/img/kades dan kadus.jpg" style="height: 180px;" alt="Foto 1">
               </div>
             </div>
+            <div class="col-md-3">
+              <div class="image-container" style="border: 5px solid #3498db; padding: 10px; margin: 10px;">
+                <img src="assets/img/kades dan kadus.jpg" style="height: 180px;" alt="Foto 1">
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="image-container" style="border: 5px solid #3498db; padding: 10px; margin: 10px;">
+                <img src="assets/img/kades dan kadus.jpg" style="height: 180px;" alt="Foto 1">
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="image-container" style="border: 5px solid #3498db; padding: 10px; margin: 10px;">
+                <img src="assets/img/kades dan kadus.jpg" style="height: 180px;" alt="Foto 1">
+              </div>
+            </div>
+            <!-- Repeat the above block for 3 more images in the same row -->
           </div>
-        </section>
+        </div>
+        <!-- Second row of images (horizontal) -->
+        <div class="col-md-12" data-aos="fade-up" data-aos-delay="200">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="image-container" style="border: 5px solid #3498db; padding: 10px; margin: 10px;">
+                <img src="assets/img/kades dan kadus.jpg" style="height: 180px;" alt="Foto 5">
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="image-container" style="border: 5px solid #3498db; padding: 10px; margin: 10px;">
+                <img src="assets/img/kades dan kadus.jpg" style="height: 180px;" alt="Foto 5">
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="image-container" style="border: 5px solid #3498db; padding: 10px; margin: 10px;">
+                <img src="assets/img/kades dan kadus.jpg" style="height: 180px;" alt="Foto 5">
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="image-container" style="border: 5px solid #3498db; padding: 10px; margin: 10px;">
+                <img src="assets/img/kades dan kadus.jpg" style="height: 180px;" alt="Foto 5">
+              </div>
+            </div>
+            <!-- Repeat the above block for 3 more images in the same row -->
+          </div>
+        </div>
+        <!-- Third row of images (horizontal) -->
+        <div class="col-md-12" data-aos="fade-up" data-aos-delay="300">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="image-container" style="border: 5px solid #3498db; padding: 10px; margin: 10px;">
+                <img src="assets/img/kades dan kadus.jpg" style="height: 180px;" alt="Foto 9">
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="image-container" style="border: 5px solid #3498db; padding: 10px; margin: 10px;">
+                <img src="assets/img/kades dan kadus.jpg" style="height: 180px;" alt="Foto 9">
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="image-container" style="border: 5px solid #3498db; padding: 10px; margin: 10px;">
+                <img src="assets/img/kades dan kadus.jpg" style="height: 180px;" alt="Foto 9">
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="image-container" style="border: 5px solid #3498db; padding: 10px; margin: 10px;">
+                <img src="assets/img/kades dan kadus.jpg" style="height: 180px;" alt="Foto 9">
+              </div>
+            </div>
+            <!-- Repeat the above block for 3 more images in the same row -->
+          </div>
+        </div>
+        <!-- Fourth row of images (horizontal) -->
+        <div class="col-md-12" data-aos="fade-up" data-aos-delay="400">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="image-container" style="border: 5px solid #3498db; padding: 10px; margin: 10px;">
+                <img src="assets/img/kades dan kadus.jpg" style="height: 180px;" alt="Foto 13">
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="image-container" style="border: 5px solid #3498db; padding: 10px; margin: 10px;">
+                <img src="assets/img/kades dan kadus.jpg" style="height: 180px;" alt="Foto 13">
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="image-container" style="border: 5px solid #3498db; padding: 10px; margin: 10px;">
+                <img src="assets/img/kades dan kadus.jpg" style="height: 180px;" alt="Foto 13">
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="image-container" style="border: 5px solid #3498db; padding: 10px; margin: 10px;">
+                <img src="assets/img/kades dan kadus.jpg" style="height: 180px;" alt="Foto 13">
+              </div>
+            </div>
+            <!-- Repeat the above block for 3 more images in the same row -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Your other HTML sections and scripts -->
+
+</body>
+</html>
+
 
         <section id="pengaduan" class="pengaduan">
           <div class="container">
